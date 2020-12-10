@@ -2,39 +2,86 @@ html {
     font-size 62.5%;
 }
 
-.navigate {
-    margin-top: 5%;
-    text-align: center;
-    border-radius: 10rem;
-}
-
-/*.header-title {
-    box-sizing: border-box;
-    max-width: 80%;
-    text-align: center;
-}*/
-
-.header-title {
-    font-family: 'Chelsea Market', cursive;
-}
-
-.header-text {
-    text-align: center;
-    float: right;
-    max-width: 50%;
-}
-
-.header-title img {
-    max-width: 30%;
-    float: left;
-    border-radius: 50%;
-}
-
-.body {
+body {
     font-family: 'Roboto Mono', monospace;
-    max-width: 90%;
+    max-width: 95%;
     margin: auto;
     text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav > a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 15px;
+    width: 90px;
+
+    margin: auto;
+    padding: 3%;
+    border-radius: 20px;
+}
+
+.title {
+    margin: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 93%;
+    margin: auto;
+    padding: 20px;
+}
+
+.title-container div {
+    padding: 10px;
+}
+
+.title-container img {
+    width: 210px;
+    height: 210px;
+    border-radius: 20rem;
+}
+
+.image-box {
+    flex:1;
+}
+
+.content-box {
+    flex:2;
+    display: flex;
+    align-items: inherit;
+    flex-direction: column;
+    
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.content-box h1 {
+    font-family: 'Chelsea Market', cursive;
+    width: 600px;
+}
+
+.content-box h2 {
+    font-size: 14px;
+    width: 300px;
+}
+
+.content-box p {
+    font-size: 14px;
+    width: 270px;
 }
 
 .main-text {
@@ -49,67 +96,34 @@ html {
 
 .main-text2 {
     text-align: center;
-    max-width: 60%;
+    max-width: 30%;
     margin: auto;
     margin-bottom: 4rem;
 }
 
 .main-text2 img {
-    max-width: 30%;
-    margin: auto;
-}
-
-.main img {
-    max-width: 20rem;
-    max-height: 20rem;
-    border-radius: 50%;
-}
-
-.main-paragraph {
-    max-width: 45%;
-    margin: auto;
-    text-align: center;
+    width: 9rem;
 }
 
 .footer {
-    max-width: 90%;
+    width: 95%;
     margin: auto;
-    text-align: center;
     background-color: #F9E7DC;
 }
 
 .footer img {
-    max-height: 10rem;
-}
-
-.buttons {
-    display: inline-block;
-    text-align: center;
+    height: 12rem;
+    width: 100%;
 }
 
 #plan {
     background-color: #FF764E;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 25%;
-    width: 9rem;
-    height: auto;
 }
 
 #learn {
     background-color: #5ED3EB;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 25%;
-    width: 9rem;
-    height: auto;
 }
 
-#getinvolved {
+#involve {
     background-color: #FFCD69;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 25%;
-    width: 9rem;
-    height: auto;
 }
